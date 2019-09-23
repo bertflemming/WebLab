@@ -1,0 +1,10 @@
+<h1><%= title %></h1>
+<% students.forEach(student => { %>
+<strong> <%= student.name %>
+</strong>
+<span> <%= student.grade %>
+</span>
+    <a class="btn btn-raised btn-danger" href="/students/deleteStudent/<%= student.id %>">Delete</a></td> 
+    <br>
+
+<% }); %>

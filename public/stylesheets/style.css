@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  color: rgb(238, 234, 234);
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.abody {
+  margin-left: 20%;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
